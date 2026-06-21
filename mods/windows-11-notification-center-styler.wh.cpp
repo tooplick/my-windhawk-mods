@@ -473,6 +473,17 @@ const Theme g_themeTranslucentShell = {{
         L"TextAlignment=Center"}},
     ThemeTargetStyles{L"Windows.UI.Xaml.Controls.StackPanel#PrimaryAndSecondaryTextContainer > Windows.UI.Xaml.Controls.TextBlock#SubtitleText", {
         L"TextAlignment=Center"}},
+    ThemeTargetStyles{L"GridViewItem[1] > * > Windows.UI.Xaml.Shapes.Rectangle#HorizontalDecreaseRect", {
+        L"Width=>horizontalDecreaseRectWidth1",
+        L"MinWidth={{horizontalDecreaseRectWidth1 + 8}}"}},
+    ThemeTargetStyles{L"GridViewItem[2] > * > Windows.UI.Xaml.Shapes.Rectangle#HorizontalDecreaseRect", {
+        L"Width=>horizontalDecreaseRectWidth2",
+        L"MinWidth={{horizontalDecreaseRectWidth2 + 8}}"}},
+    ThemeTargetStyles{L"GridViewItem[3] > * > Windows.UI.Xaml.Shapes.Rectangle#HorizontalDecreaseRect", {
+        L"Width=>horizontalDecreaseRectWidth3",
+        L"MinWidth={{horizontalDecreaseRectWidth3 + 8}}"}},
+    ThemeTargetStyles{L"Windows.UI.Xaml.Controls.Primitives.Thumb#HorizontalThumb", {
+        L"Margin=-8,0,0,0"}},
 }, {
     L"CommonBgBrush=<WindhawkBlur BlurAmount=\"25\" TintColor=\"#25323232\"/>",
     L"thumbnailImageSize=300",
